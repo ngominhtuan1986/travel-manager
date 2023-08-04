@@ -1,3 +1,5 @@
+"use client"
+
 import './globals.css';
 import { Nunito } from 'next/font/google';
 import { SessionProvider } from 'next-auth/react';
