@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.btn {
+  @apply px-2 py-1 cursor-pointer bg-white border hover:bg-lime-300 active:bg-lime-300 active:scale-90 rounded transition
+}
