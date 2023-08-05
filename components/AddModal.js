@@ -111,6 +111,26 @@ const AddModal = () => {
 							placeholder="Pax Number"
 							className=" inputAdd btnFocus"
 						/>
+						<input
+							type="text"
+							placeholder="Pax Name"
+							className=" cols-span-1 inputAdd btnFocus"
+						/>
+						<input
+							type="text"
+							placeholder="Pax Phone"
+							className="  inputAdd btnFocus"
+						/>
+						<input
+							type="text"
+							placeholder="Pax Email"
+							className="  inputAdd btnFocus"
+						/>
+						<input
+							type="text"
+							placeholder="Pax Number"
+							className=" inputAdd btnFocus"
+						/>
 					</div>
 					<button className="btn">Discard</button>
 					<button className="btn">Clear</button>
