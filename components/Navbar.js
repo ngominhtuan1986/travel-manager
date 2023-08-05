@@ -1,6 +1,6 @@
 'use client';
 
-import { Menu, Search } from 'lucide-react';
+import { Menu, Search, Plus } from 'lucide-react';
 import { useSession } from 'next-auth/react';
 import Link from 'next/link';
 
@@ -12,7 +12,7 @@ const Navbar = () => {
 	}
 	return (
 		<div className="py-4 border-b flex justify-between items-center">
-			<Link href="/" className="font-black">
+			<Link href="/" className="font-black leading-tight ">
 				TRAVEL MANAGER
 			</Link>
 			<div className="flex gap-2">
@@ -24,9 +24,12 @@ const Navbar = () => {
 				)}
 				{user && (
 					<div className="flex gap-2 items-center">
+						<div className="btn">
+							<Plus />
+						</div>
 						<div className="px-2 py-1 bg-white border rounded transition w-auto flex items-center btnFocus">
 							<input type="text" placeholder="search" className="w-full" />
-							<Search size={15}/>
+							<Search size={15} />
 						</div>
 						<div className="group transition relative">
 							<div className="btn flex items-center gap-2">
